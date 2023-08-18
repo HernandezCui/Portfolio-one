@@ -86,7 +86,7 @@ a {
 
 
 .content { 
-    width: 75%; 
+    width: 95%; 
     display: inline-block;
     margin-left: 20px;
 }
@@ -104,6 +104,11 @@ a {
     font-size: 36px;
 }
 
+.content section p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
 .content section img {
     max-height: 200px;
 }
@@ -119,3 +124,29 @@ a {
 }
 
 
+.contact {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.contact h4 {
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact ul {
+text-align: center;
+}
+
+.contact ul li {
+    display: inline-block;
+    margin-left: 25px;
+    justify-content: space-between;
+}

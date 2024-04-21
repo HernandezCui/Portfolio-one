@@ -13,12 +13,16 @@ body {
 }
 
 .header {
-    padding: 1%;
-    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: yellowgreen;
+    display: flex;
     justify-content: space-between;
-    font-family:'Poppins', sans-serif;
-    background-color: black;
-    color: white; 
+    align-items: center;
+    z-index: 100;
 }
 
 .header h1 {
